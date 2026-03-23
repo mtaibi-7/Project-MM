@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
+    color: #333;
+}
+
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #000, #333);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* NAV */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #111;
+}
+
+
+nav ul li {
+    margin: 15px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+
+/* LAYOUT */
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+section {
+    flex: 3;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+
+aside {
+    flex: 1;
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+
+/* TEXTOS */
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+p {
+    margin-bottom: 10px;
+}
+
+
+/* IMG */
+img {
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+
+/* LIS */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+
+input, textarea, select {
+    margin-bottom: 12px;
+    padding: 8px;
+}
+
+
+button {
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: darkorange;
+}
+
+
+/* TABLA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
